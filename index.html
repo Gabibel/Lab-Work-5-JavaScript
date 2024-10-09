@@ -132,7 +132,7 @@
         }
     }
 
-    function triangleArea() {
+    function getTriangleArea() {
         let base = document.getElementById("base").value.trim();
         let height = document.getElementById("height").value.trim();
         base = Number(base);
@@ -145,7 +145,7 @@
         }
     }
 
-    function squareArea() {
+    function getSquareArea() {
         let side = document.getElementById("side").value.trim();
         side = Number(side);
         if (!isNaN(side) && side > 0) {
@@ -156,7 +156,7 @@
         }
     }
 
-    function rectangleArea() {
+    function getRectangleArea() {
         let width = document.getElementById("width").value.trim();
         let length = document.getElementById("length").value.trim();
         width = Number(width);
